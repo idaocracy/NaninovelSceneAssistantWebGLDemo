@@ -1,0 +1,12 @@
+
+@camera offset:0.0,0.0,0.0 roll:0 zoom:0 orthographic:true set:EventTrigger.true
+@camera offset:0.0,0.0,0.0 roll:0 zoom:0 orthographic:true set:EventTrigger.true
+; Test
+@char Kohaku appearance:Angry pos:20.0,0.0,50.0 rotation:0.0,0.0,0.0 scale:1.0,1.0,1.0 tint:#FFFFFFFF look:Left
+
+; Test
+@back id:MainBackground appearance:Desert pos:50.0,50.0,100.0 rotation:0.0,0.0,0.0 scale:1.0,1.0,1.0 tint:#FFFFFFFF
+@camera offset:0.0,0.0,0.0 roll:0 zoom:0 orthographic:true set:EventTrigger.true
+@back id:MainBackground appearance:Desert position:0.0,0.0,100.0 pos:50.0,50.0,100.0 rotation:0.0,0.0,0.0 scale:1.0,1.0,1.0 tint:#FFFFFFFF
+@printer Dialogue appearance:Default position:-5.8,0.0,0.0 pos:20.0,50.0,0.0 rotation:0.0,0.0,0.0 scale:1.0,1.0,1.0 tint:#FFFFFFFF
+@char Kohaku appearance:Angry position:-5.8,-5.4,50.0 pos:20.0,0.0,50.0 rotation:0.0,0.0,0.0 scale:1.0,1.0,1.0 tint:#FFFFFFFF look:Left
